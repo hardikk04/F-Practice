@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: text;
+  src: url(./nightingale-regular-webfont.woff2);
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.page1-part1 {
+  position: relative;
+  background-image: url("https://tascadalmerita.wine/images/loader.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  font-family: text;
+}
+
+.page1-part2 {
+  /* position: relative; */
+  background-image: url("./Tenuta-Regaleali.jpg");
+  background-size: cover;
+  background-position: center;
+}

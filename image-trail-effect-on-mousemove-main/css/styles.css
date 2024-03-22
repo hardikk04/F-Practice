@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #000;
+  background-color: red;
+}
+
+.page1 {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  background-color: rebeccapurple;
+}
+
+.content {
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__img {
+  border-radius: 0.5vw;
+  max-width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}

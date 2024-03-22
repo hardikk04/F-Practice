@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: regular;
+  src: url(./Fonts/texgyreheros-regular.otf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(./Fonts/texgyreheros-bold.otf);
+}
+
+.bold {
+  font-family: bold;
+}
+
+.regular {
+  font-family: regular;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+button {
+  border: 1px solid #ffffff32;
+}
+
+h6 {
+  animation: moveUpDown 3s ease-in-out infinite both;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.page1-footer span {
+  border: 1px solid #ffffff32;
+}
+
+.footer-btn span i {
+  animation: s 2.4s linear infinite;
+}
+
+@keyframes s {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0.5;
+  }
+  30% {
+    opacity: 0.6;
+    transform: translateY(-50%);
+  }
+  40% {
+    opacity: 0.8;
+    transform: translateY(0%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  70% {
+    opacity: 0.7;
+    transform: translateY(50%);
+  }
+
+  90% {
+    opacity: 0.6;
+    transform: translateY(90%);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: translateY(100%);
+  }
+}
+
+.loader h1 {
+  font-size: 11vw;
+  line-height: 0.9;
+}

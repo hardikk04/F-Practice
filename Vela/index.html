@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div
+        class="loader bg-white absolute top-0 left-0 z-10 h-[100vh] w-full overflow-hidden"
+      >
+        <div
+          class="loader-overlay h-full w-full bg-[#f85a3e] relative top-[100%]"
+        ></div>
+      </div>
+      <div class="page1 h-[100vh] w-full bg-[#191810]">
+        <nav class="px-[6vw] pt-[2vw] flex justify-between items-center">
+          <h3
+            class="text-[.9vw] text-[#F4ECD7] w-[20%] leading-[1.2] tracking-tight"
+          >
+            <span class="font-[500]">Vela Capitals</span> is a trading and
+            brokerage firm specializing in Agricultural and Industrial
+            Commodities
+          </h3>
+          <h3 class="text-[#f85a3e] text-[1.3vw]">中文</h3>
+        </nav>
+        <div
+          class="page1-main h-[77vh] w-full flex justify-center items-center"
+        >
+          <div class="page1-text text-[#F4ECD7] text-center absolute mb-[2vw]">
+            <h1 class="text-[6.5vw] font-[400] leading-[1.1]">Relationships</h1>
+            <h1 class="text-[6.5vw] font-[400] leading-[1.1]">over</h1>
+            <h1 class="text-[6.5vw] font-[400] leading-[1.1]">Transactions</h1>
+          </div>
+          <div class="page1-video h-[25vh] w-[25vw]">
+            <video
+              autoplay
+              loop
+              muted
+              class="h-full w-full object-cover"
+              src="./video.mp4"
+            ></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

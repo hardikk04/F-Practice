@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: ft1;
+  src: url(./2398e6ba2819be5baa53.woff2);
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.page1 {
+  border: 1px solid rgba(189, 189, 189, 0.489);
+}
+
+nav {
+  padding-right: 1vw;
+}
+
+.nav-left > img {
+  border: 1px solid rgba(189, 189, 189, 0.489);
+}
+
+.nav-right {
+  border: 1px solid rgba(189, 189, 189, 0.489);
+  padding: 1vw;
+}
+
+.page1-hero > .hero-elem:nth-child(1) {
+  background-image: url("https://cdn.sanity.io/images/7e395kwl/production/abdaa6ec8764597a8e002952cfdfb14cd9b1a616-1881x934.png");
+  background-position: center;
+  background-size: cover;
+}
+.page1-hero > .hero-elem:nth-child(2) {
+  background-image: url("https://cdn.sanity.io/images/7e395kwl/production/e6896dab77fa28d15f07addf36cf789241ad975c-2048x1425.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.page1-hero > .hero-elem:nth-child(3) {
+  background-image: url("https://cdn.sanity.io/images/7e395kwl/production/d83082c2da445a1ef67188cfa1ba03f62f3bed47-1920x1009.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-text {
+  font-family: ft1;
+  font-weight: 100;
+}

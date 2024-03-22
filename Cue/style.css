@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: light;
+  src: url(./6594259965ca848a371eee1c_MABRYPRO-LIGHT.woff2);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(./6594259965ca848a371eee1a_MABRYPRO-BOLD.woff2);
+}
+
+@font-face {
+  font-family: medium;
+  src: url(./6594259965ca848a371eee1b_MABRYPRO-MEDIUM.woff2);
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.light {
+  font-family: light;
+}
+
+.bold {
+  font-family: bold;
+}
+
+.medium {
+  font-family: medium;
+}
+
+.page1-img > img {
+  object-position: center bottom;
+}
+
+.page2-center {
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+}
+
+.page2-center > img {
+  object-position: 50% -20%;
+}

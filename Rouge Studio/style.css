@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: t1;
+  src: url(./fonts/Druk-CondSuper.otf);
+}
+@font-face {
+  font-family: t2;
+  src: url(./fonts/NeueMontreal-Light.otf);
+}
+@font-face {
+  font-family: t3;
+  src: url(./fonts/NeueMontreal-Regular.otf);
+}
+@font-face {
+  font-family: t4;
+  src: url(./fonts/PPNeueMontreal-Book.otf);
+}
+
+@font-face {
+  font-family: t5;
+  src: url(./fonts/l);
+}
+
+.t1 {
+  font-family: t1;
+}
+.t2 {
+  font-family: t2;
+}
+.t3 {
+  font-family: t3;
+}
+.t4 {
+  font-family: t4;
+}
+
+.t5 {
+  font-family: t5;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.scroller {
+  border-top: 1px solid #ffffff43;
+  border-bottom: 1px solid #ffffff43;
+}
+
+.scroller-box {
+  animation: scroller 15s linear infinite both;
+}
+
+@keyframes scroller {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.loader > .img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  rotate: 3deg;
+}
+
+.loader > .img:nth-child(1) {
+  rotate: 0deg;
+}
+
+.loader > .img:nth-child(2) {
+  rotate: 2deg;
+}
+.loader > .img:nth-child(3) {
+  rotate: 4deg;
+}
+
+.loader > .img:nth-child(4) {
+  rotate: 6deg;
+}
+
+.loader > .img:nth-child(5) {
+  rotate: 0deg;
+}
+
+.loader > .img:nth-child(7) {
+  rotate: -2deg;
+}
+.loader > .img:nth-child(8) {
+  rotate: -4deg;
+}
+
+.loader > .img:nth-child(9) {
+  rotate: -6deg;
+}
+
+.loader > .img:nth-child(10) {
+  rotate: -4deg;
+}
+
+.loader > .img:nth-child(11) {
+  rotate: 0deg;
+}
+
+.loader > .img:nth-child(12) {
+  rotate: -2deg;
+}
+.loader > .img:nth-child(13) {
+  rotate: -4deg;
+}
+
+.loader > .img:nth-child(14) {
+  rotate: -6deg;
+}
+
+.loader > .img:nth-child(15) {
+  rotate: -4deg;
+}
+
+.dots {
+  filter: invert(1);
+  transform: rotate(-90deg);
+  transition: all ease 0.4s;
+  scale: 1.2;
+}
+
+.dot-img:hover .dots {
+  filter: invert(1);
+  transform: rotate(-70deg);
+  scale: 0.8;
+}
+
+.nav {
+  border-right: 1px solid #ffffff43;
+}
+
+.nav-last > h3 {
+  position: relative;
+}
+
+.nav-last > h3:hover::after {
+  background-color: orangered;
+}
+
+.nav-last > h3::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: -15%;
+  height: 0.5vh;
+  width: 0.5vh;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.nav-x > img {
+  position: relative;
+  transition: all ease 0.3s;
+}
+
+.nav-x > img:hover {
+  scale: 1.2;
+  transform: rotate(25deg);
+}
+
+.main-text {
+  letter-spacing: 0.4vw;
+}
+
+.footer-elem > h3 {
+  letter-spacing: 2px;
+}
+
+.page1-img1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  rotate: -5deg;
+}
+
+.page1-img2 {
+  top: 25%;
+  left: 2%;
+  z-index: 1;
+}
+
+.page1-img3 {
+  top: 6%;
+  left: 25%;
+}
+
+.page1-img4 {
+  top: 0%;
+  left: 77%;
+  z-index: 1;
+}
+
+.page1-img5 {
+  top: 45%;
+  right: 5%;
+}
+
+.page1-img6 {
+  bottom: -10%;
+  left: 20%;
+}
+
+.page1-img7 {
+  right: 3%;
+  bottom: -5%;
+}

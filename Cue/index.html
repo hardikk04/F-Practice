@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="flex justify-between py-[1vw] px-[1.5vw] w-full absolute top-0 left-0 z-[1] bg-[#FFF9EC] text-[#FF3227]"
+    >
+      <h3 class="text-[.9vw] font-[600] uppercase">Home</h3>
+      <img
+        class="h-[1.5vw] object-cover"
+        src="https://assets-global.website-files.com/6594259965ca848a371eed8f/6594259965ca848a371eee16_logo%20shorter.svg"
+        alt=""
+      />
+      <div class="nav-right flex items-center gap-3">
+        <h3 class="text-[.9vw] font-[600]">BOOK CONSULTATION</h3>
+        <img
+          class="object-cover h-[.7vw]"
+          src="https://assets-global.website-files.com/6594259965ca848a371eed8f/6594259965ca848a371eee31_PLUS%20(2).svg"
+          alt=""
+        />
+      </div>
+    </nav>
+    <div class="main text-[#FF3227] bg-[#FFF9EC]">
+      <div
+        class="loader bg-[#FF3227] h-[100vh] w-full absolute top-0 left-0 z-30"
+      ></div>
+      <div class="page1 min-h-[100vh] w-full relative overflow-hidden">
+        <div class="page1-part1 absolute top-0 left-0">
+          <div class="page1-img h-[70vh] w-[120%] relative">
+            <img
+              class="h-[100%] w-[100%] object-cover relative left-[-5%]"
+              src="https://assets-global.website-files.com/6594259965ca848a371eed8f/6594259965ca848a371eee16_logo%20shorter.svg"
+              alt=""
+            />
+          </div>
+          <h1 class="medium text-[5vw] mt-[3vw] ml-[22vw] relative z-20">
+            LET’S
+          </h1>
+          <h1 class="medium text-[5vw] leading-none relative z-20">GET</h1>
+        </div>
+        <div
+          class="page2-part2 h-[120vh] w-full flex justify-between relative z-10 mt-[12vw] overflow-hidden gap-[1.5vw]"
+        >
+          <div
+            class="page2-left h-full w-[32%] relative flex flex-col justify-between gap-[1vw] top-[100%]"
+          >
+            <img
+              class="object-cover w-full h-[80vh]"
+              src="./6594259965ca848a371eee3f_woman telephone.webp"
+              alt=""
+            />
+            <img
+              class="object-cover w-full h-[35vh]"
+              src="./6594259965ca848a371eee43_woman green shirt.webp"
+              alt=""
+            />
+          </div>
+          <div
+            class="page2-center h-[100vh] w-[40%] overflow-hidden absolute left-[50%] top-0 -translate-x-[50%] flex items-center"
+          >
+            <img
+              class="h-full scale-[2.3] w-full object-cover"
+              src="./main.webp"
+              alt=""
+            />
+          </div>
+          <div
+            class="page2-right h-full w-[32%] relative flex flex-col justify-between gap-[1vw] top-[-100%]"
+          >
+            <img
+              class="object-cover w-full h-[35vh]"
+              src="./6594259965ca848a371eee3d_woman orange headphones.webp"
+              alt=""
+            />
+            <img
+              class="object-cover w-full h-[80vh]"
+              src="./6594259965ca848a371eee3e_woman pink bg.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div
+        class="loader h-[100vh] w-full fixed top-0 left-0 bg-[#222222] flex justify-center items-center z-20"
+      >
+        <div class="loader-elem text-white flex overflow-hidden">
+          <h3 class="text-[3vw] font-[600] leading-none loader-1">H</h3>
+          <h3 class="text-[3vw] font-[600] leading-none loader-2">S</h3>
+          <div
+            class="dot h-[1vh] w-[1vh] bg-white rounded-full mt-[.3vw] ml-[.2vw]"
+          ></div>
+        </div>
+        <div class="laoder-overlay absolute top-0 left-0 h-full w-full flex">
+          <div
+            class="overlay-top w-[25%] h-full bg-white relative top-[-100%]"
+          ></div>
+          <div
+            class="overlay-bottom w-[25%] h-full bg-white relative top-[100%]"
+          ></div>
+          <div
+            class="overlay-top w-[25%] h-full bg-white relative top-[-100%]"
+          ></div>
+          <div
+            class="overlay-bottom w-[25%] h-full bg-white relative top-[100%]"
+          ></div>
+        </div>
+      </div>
+      <div class="page1 min-h-[100vh] w-full bg-white">
+        <nav
+          class="flex justify-between px-[2vw] py-[.8vw] items-center overflow-hidden"
+        >
+          <div class="nav-left flex text-black">
+            <h3 class="text-[1.5vw] font-[700] leading-none">H</h3>
+            <h3 class="text-[1.5vw] leading-none">S</h3>
+            <div
+              class="page1-dot h-[.2vh] w-[.2vh] mt-[.2vw] rounded-full bg-black"
+            ></div>
+          </div>
+          <h3 class="text-[#5a5a5a]">
+            EST <span class="text-[#333333] font-[500]">–2010</span>
+          </h3>
+          <div class="nav-option flex text-[#5a5a5a] gap-[1.5vw]">
+            <h3 class="uppercase font-[500] relative" text="1.">Home /</h3>
+            <h3 class="uppercase font-[500] relative" text="2.">studio /</h3>
+            <h3 class="uppercase font-[500] relative" text="3.">services /</h3>
+          </div>
+          <div
+            class="nav-right w-[2.4vw] h-[3vh] flex justify-center gap-1 flex-col"
+          >
+            <div class="h-[2px] w-full flex gap-1">
+              <div class="h-full w-[10%] bg-black"></div>
+              <div class="h-full w-[90%] bg-black"></div>
+            </div>
+            <div class="h-[3px] w-full flex gap-1">
+              <div class="h-full w-[10%] bg-black"></div>
+              <div class="h-full w-[90%] bg-black"></div>
+            </div>
+          </div>
+          <div
+            class="nav-line w-full h-[1px] bg-black absolute bottom-0 left-0"
+          ></div>
+        </nav>
+        <div class="page1-hero pt-[12vw]">
+          <div
+            class="hero-text text-[#333333] whitespace-nowrap flex relative gap-2 overflow-hidden"
+          >
+            <h1 class="text-[12.5vw] font-[600] tracking-tight leading-none">
+              HORIZON
+            </h1>
+            <h1 class="text-[12.5vw] tracking-tight font-[400] leading-none">
+              STUDIO
+            </h1>
+            <div
+              class="text-dot w-[2vh] h-[2vh] bg-[#333333] rounded-full mt-[2vw]"
+            ></div>
+          </div>
+          <div class="secondary-text overflow-hidden">
+            <h3 class="text-end pr-[4vw] text-[#333333] text-[.8vw]">
+              LOS ANGELES,CA.
+            </h3>
+          </div>
+        </div>
+        <div class="page1-img w-full h-[100vh] flex justify-end relative">
+          <img
+            class="w-full h-full object-cover"
+            src="https://assets-global.website-files.com/6594c68e852eed392813f26c/65968d19211871302df255cc_home-img-07-p-2000.webp"
+            alt=""
+          />
+          <div
+            class="img-overlay absolute top-0 left-0 bg-white h-full w-full"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
